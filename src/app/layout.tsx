@@ -27,9 +27,6 @@ export default function RootLayout({
         ${nunito.className}
         `}
       >
-        <Page>
-          <></>
-        </Page>
         {children}
       </body>
     </html>

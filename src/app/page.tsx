@@ -1,9 +1,9 @@
-interface PageProps {
-  externa?: boolean;
-  children: any;
-  className?: string;
-}
+import Header from "./components/Header";
 
-export default function Page(props: PageProps) {
-  return <div>{props.children}</div>;
+export default function Page() {
+  return (
+    <div className="flex min-h-screen items-center justify-center">
+      <Header />
+    </div>
+  )
 }
